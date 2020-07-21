@@ -21,8 +21,6 @@ class ContributorsActivity : AppCompatActivity() {
     private val contributorsAdapter: ContributorsAdapter by inject()
 
     private val gridLayoutManager: GridLayoutManager by currentScope.inject()
-   /* private val gridLayoutManager : GridLayoutManager by inject { parametersOf(this,3) }
-    private val gridLayoutManager1 : GridLayoutManager by inject { parametersOf(this,2) }*/
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
